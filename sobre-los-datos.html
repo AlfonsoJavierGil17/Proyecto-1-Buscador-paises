@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre los Datos - Guía de Viajes</title>
+</head>
+<body>
+
+  <header>
+    <div>
+      <figure>
+        <img src="./assets/img/images.jpeg" alt="foto del mundo">
+      </figure>
+      <h1>Explora el Mundo</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./catalogo.html">Catálogo de Destinos</a></li>
+        <li><a href="./comparativa.html">Comparativa</a></li>
+        <li><a href="./sobre-los-datos.html">Sobre los Datos</a></li>
+        <li><a href="./propuesta.html">Guardar Destino</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section>
+      <h2>Origen y Atribución de los Datos</h2>
+      <p>Todos los datos geográficos y demográficos mostrados en este sitio web han sido obtenidos directamente de la API pública libre <strong>REST Countries</strong>.</p>
+      <ul>
+        <li><strong>Mantenedor:</strong> Proyecto de código abierto alojado en GitHub.</li>
+        <li><strong>Documentación oficial:</strong> <a href="https://restcountries.com/"></a></li>
+        <li><strong>Peticiones utilizadas:</strong> GET https://restcountries.com/v5</li>
+        <li><strong>Licencia:</strong> Open Data </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Transformación: De JSON a HTML Semántico</h2>
+      <p>A continuación se muestra un ejemplo real de cómo el objeto recibido en formato JSON se transforma en elementos HTML5 dentro del sitio web:</p>
+
+      <h3>Fragmento de origen (JSON):</h3>
+      
+      {
+      "name": {
+        "common": "Italia",
+        "official": "República Italiana"
+      },
+      "capital": [
+        "name": "Rome"
+      ],
+      "flag":{
+        "url_png": ""https://flags.restcountries.com/v5/w640/it.png""
+      }
+      "region": "Europe",
+      "population": 125_800_000
+      }
+
+      <h3>Resultado marcado en la web (HTML):</h3>
+      <h4>Italia</h3>
+        <p>capital: Roma</p>
+        <p>poblacion de 125 millones de personas</p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Guía de Destinos de Viaje.</p>
+  </footer>
+
+</body>
+</html>

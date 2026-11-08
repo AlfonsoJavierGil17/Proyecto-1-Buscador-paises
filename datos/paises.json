@@ -1,0 +1,23 @@
+[
+  {
+    "names": { "common": "Mexico", "official": "United Mexican States" },
+    "capitals": [{ "name": "Mexico City", "primary": true }],
+    "population": 128455567,
+    "region": "Americas",
+    "flag": { "emoji": "🇲🇽", "url_png": "https://flags.restcountries.com/v5/w640/mx.png" }
+  },
+  {
+    "names": { "common": "Italy", "official": "Italian Republic" },
+    "capitals": [{ "name": "Rome", "primary": true }],
+    "population": 59037474,
+    "region": "Europe",
+    "flag": { "emoji": "🇮🇹", "url_png": "https://flags.restcountries.com/v5/w640/it.png" }
+  },
+  {
+    "names": { "common": "India", "official": "Republic of India" },
+    "capitals": [{ "name": "New Delhi", "primary": true }],
+    "population": 1408048100,
+    "region": "Asia",
+    "flag": { "emoji": "🇮🇳", "url_png": "https://flags.restcountries.com/v5/w640/in.png" }
+  }
+]

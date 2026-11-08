@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardar Nuevo Destino - Guía de Viajes</title>
+</head>
+<body>
+
+  <header>
+    <div>
+      <figure>
+        <img src="./assets/img/images.jpeg" alt="foto del mundo">
+      </figure>
+      <h1>Explora el Mundo</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./catalogo.html">Catálogo de Destinos</a></li>
+        <li><a href="./comparativa.html">Comparativa</a></li>
+        <li><a href="./sobre-los-datos.html">Sobre los Datos</a></li>
+        <li><a href="./propuesta.html">Guardar Destino</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <h2>Planifica un nuevo destino de viaje</h2>
+    <p>Rellena los datos del país o ciudad que deseas añadir a tus próximos itinerarios de viaje.</p>
+
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Datos Básicos del Destino</legend>
+
+        <p>
+          <label for="nombre-pais">Nombre del País (obligatorio):</label>
+          <input type="text" id="nombre-pais" name="nombre_pais" required minlength="2" maxlength="60">
+        </p>
+
+        <p>
+          <label for="region">Región / Continente (obligatorio):</label>
+          <select id="region" name="region" required>
+            <option value="">-- Selecciona una opción --</option>
+            <option value="africa">África</option>
+            <option value="america">América</option>
+            <option value="asia">Asia</option>
+            <option value="europa">Europa</option>
+            <option value="oceania">Oceanía</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="ciudad">Ciudad a visitar:</label>
+          <input type="text" id="ciudad" name="ciudad">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Planificación del Viaje</legend>
+
+        <p>
+          <label for="fecha-viaje">Fecha estimada de salida:</label>
+          <input type="date" id="fecha-viaje" name="fecha_viaje">
+        </p>
+
+        <p>
+          <label for="duracion">Duración prevista (en días):</label>
+          <input type="number" id="duracion" name="duracion">
+        </p>
+
+        <p>
+          <label for="presupuesto">Presupuesto maximo estimado en € (obligatorio):</label>
+          <input type="number" id="presupuesto" name="presupuesto">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Detalles Adicionales y Recursos</legend>
+
+        <p>
+          <label for="url-imagen">Enlace (URL) a la imagen de la bandera o foto:</label>
+          <input type="url" id="url-imagen" name="url_imagen" placeholder="https://ejemplo.com/imagen.jpg">
+        </p>
+
+        <p>
+          <label for="notas">Notas o lugares imprescindibles a visitar:</label>
+          <textarea id="notas" name="notas" rows="5" cols="40" placeholder="Escribe aquí los monumentos o itinerarios deseados..."></textarea>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Guardar Destino de Viaje</button>
+        <button type="reset">Borrar Formulario</button>
+      </p>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Guía de Destinos de Viaje.</p>
+  </footer>
+
+</body>
+</html>
