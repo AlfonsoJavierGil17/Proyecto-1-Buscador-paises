@@ -27,3 +27,13 @@ Consiste en escribir un texto breve respondiendo a estas preguntas sobre la API 
 | population | numero | el numero de habitantes |
 | borders | lista | ees una lista de los paiases con los que tiene frontera |
 
+Paginas:
+Index es la pagina de inicio de la web donde te cuenta un poco sobree que va la web y te muestra los sitios destacados el paln seria en como ir cambiando esos sitios destacados cada semana o algo asi. Y dude sobre si en pj, en capital poner con strong o no pq despues se va a poder modelar con html pero al final lo deje.
+
+El catalogo es una pagina dedicada a poner contenido de ciertos paises pero un poco y separado por regiones.
+
+comparativa es sobre coger ciertos paises y compararlos con una tabla hat lo unico que dude un poco fue sobre el diseño de la tabla.
+
+propuesta es sobre hacer un formulario de donde el usuario quiere viajar y te pide diferentes campos como datos personales, la planificacion, datos del destinos y que ponga una url/foto del destino y que escriba un texto sobre el destino.
+
+sobre los datos es basicamente informar de que api he savado los datos y como los he utilizado.
