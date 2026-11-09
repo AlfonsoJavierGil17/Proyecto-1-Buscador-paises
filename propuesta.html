@@ -36,13 +36,13 @@
 
                 <p>
                     <label for="nombre-pais">Nombre del País (obligatorio):</label>
-                    <input type="text" id="nombre-pais" name="nombre_pais" required minlength="2" maxlength="60">
+                    <input type="text" id="nombre-pais" name="nombre_pais">
                 </p>
 
                 <p>
                     <label for="region">Región / Continente (obligatorio):</label>
                     <select id="region" name="region" required>
-                        <option value="">-- Selecciona una opción --</option>
+                        <option selected disabled>-- Selecciona una opción --</option>
                         <option value="africa">África</option>
                         <option value="america">América</option>
                         <option value="asia">Asia</option>
@@ -88,6 +88,26 @@
                     <label for="notas">Notas o lugares imprescindibles a visitar:</label>
                     <textarea id="notas" name="notas" rows="5" cols="40" placeholder="Escribe aquí los monumentos o itinerarios deseados..."></textarea>
                 </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <p>
+                    <label for="nombre-usuario">Nombre: </label>
+                    <input type="text">
+                </p>
+                
+                <p>
+                    <label for="telefono-usuario">Teléfono: </label>
+                    <input type="tel" placeholder="+34 699 99 99 99">
+                </p>
+                
+                <p>
+                    <label for="email-usuario">Correo electronico:</label>
+                    <input type="email" placeholder="ejemplo@ejemplo.com">
+                </p>
+                
             </fieldset>
 
             <p>
