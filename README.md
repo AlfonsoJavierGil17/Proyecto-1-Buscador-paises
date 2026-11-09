@@ -17,7 +17,7 @@ Consiste en escribir un texto breve respondiendo a estas preguntas sobre la API 
 
     Peticiones realizadas al siguiente endpoint https://api.restcountries.com/countries/v5.
 
-
+## Tabla de los campos
 
 | Campo del JSON| Tipo | Qué es para el lector |
 | --- | --- | --- |
@@ -27,7 +27,8 @@ Consiste en escribir un texto breve respondiendo a estas preguntas sobre la API 
 | population | numero | el numero de habitantes |
 | borders | lista | ees una lista de los paiases con los que tiene frontera |
 
-Paginas:
+## Paginas
+
 Index es la pagina de inicio de la web donde te cuenta un poco sobree que va la web y te muestra los sitios destacados el paln seria en como ir cambiando esos sitios destacados cada semana o algo asi. Y dude sobre si en pj, en capital poner con strong o no pq despues se va a poder modelar con html pero al final lo deje.
 
 El catalogo es una pagina dedicada a poner contenido de ciertos paises pero un poco y separado por regiones.
