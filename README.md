@@ -15,4 +15,15 @@ Consiste en escribir un texto breve respondiendo a estas preguntas sobre la API 
 
     Condiciones de uso y licencia: Es gratuita, no requiere clave (Auth: No), usa HTTPS: Yes y sus datos son de acceso libre (Open Data / Licencia MIT).
 
-    Peticiones realizadas: GET [https://restcountries.com/v3.1/all](https://restcountries.com/v3.1/all) (para obtener todos los países).
+    Peticiones realizadas al siguiente endpoint https://api.restcountries.com/countries/v5.
+
+
+
+| Campo del JSON| Tipo | Qué es para el lector |
+| --- | --- | --- |
+| names.common | texto | El nombre de cada país |
+| flag | lista de objetos | Es una lista donde dentro tiene diferente informacion sobre la bandera como una url, el emoji...|
+| flag.url_png | url | es la url de cada bandera que tiene |
+| population | numero | el numero de habitantes |
+| borders | lista | ees una lista de los paiases con los que tiene frontera |
+
